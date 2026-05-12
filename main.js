@@ -5,7 +5,7 @@ let seconds = document.querySelector(".seconds p");
 
 let content = document.querySelector(".content")
 
-let worldCupDate = new Date("may 13 2026 01:29:0").getTime();
+let worldCupDate = new Date("jun 11 2026 23:59:59").getTime();
 
 let count = setInterval(() => {
     let dateNow = new Date().getTime();
